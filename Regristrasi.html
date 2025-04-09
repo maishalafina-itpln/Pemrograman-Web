@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regristrasi</title><!--memberi judul pada dokumen-->
+</head>
+<body>
+    <h2>Regristrasi Akun</h2> <!--sebagai header-->
+    <fieldset><!--pembuka frame-->
+        <legend>Formulir Regristrasi</legend><!--judul pada frame-->
+        <p>
+            <label>Masukkan Nama:</label>
+            <input type="text" placeholder="Maisha Lafina" required/> <!--data type nya text, dan sudah diisi dengan data pribadi -->
+        </p>
+                <p>
+            <label>Masukkan NIM:</label>
+            <input type="number" placeholder="202332156" required /><!--data type nya number, dan sudah diisi dengan data pribadi-->
+        </p>
+                <p>
+            <label>Masukkan Email:</label>
+            <input type="email" placeholder="maishalafina0505@gmail.com" required /><!--data type nya email, dan sudah diisi dengan data pribadi-->
+        </p>
+        <p>
+            <label>Jenis Kelamin:</label>
+            <br> <!--memilih jenis kelamin dengan buttom-->
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> perempuan</label>
+        </p>
+        <p>
+            <label>Agama:</label>
+            <select name="agama"> <!--memilih agama dengan beberapa pilihan--> 
+                <option value="islam">islam</option>
+                <option value="kristen">kristen</option>
+                <option value="hindu">hindu</option>
+                <option value="budha">budha</option>
+            </select>
+        </p>
+        <p>
+
+            <label>Masukkan Password:</label>
+            <input type="password" placeholder="admin123" /> <!--pengisian password-->
+        </p>
+        <p>
+            <label>Konfirmasi Password:</label>
+            <input type="password" name="password" placeholder="" required/> <!--pengisian konfirmasi password-->
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Daftar" /> <!--tombol submit-->
+        </p>
+        </fieldset> <!--penutup frame-->
+    
+</body>
+</html>
